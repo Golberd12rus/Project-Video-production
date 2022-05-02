@@ -34,7 +34,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url("../img/hero.png") center top no-repeat, url("../img/bottom-pic.png") center bottom 306px no-repeat;
+  background: url("../Project-video-production/img/hero.png") center top no-repeat, url("../Project-video-production/img/bottom-pic.png") center bottom 306px no-repeat;
 }
 
 .container {
@@ -329,7 +329,7 @@ margin-bottom: 53px;
   content: "";
   width: 490px;
   height: 505px;
-  background: url("../img/cameraman.png") center center / cover no-repeat;
+  background: url("../Project-video-production/img/cameraman.png") center center / cover no-repeat;
 }
 
 .about__description {
