@@ -33,6 +33,10 @@ p {
   box-sizing: border-box;
 }
 
+.main-page-wrapper {
+  background: url("./img/hero.png") center top no-repeat, url("./img/bottom-pic.png") center bottom 306px no-repeat;
+}
+
 .container {
   margin: 0 auto;
   width: 1150px;;
@@ -214,7 +218,6 @@ p {
 .news {
   margin-bottom: 146px;
   display:block;
- /* margin-left: 370px;*/
 }
 .news-title {
   font-size: 36px;
@@ -222,7 +225,6 @@ p {
   text-transform: uppercase;
   font-weight: 800;
   margin-bottom: 50px;
-  padding-left: 370px;
 }
 
 .news-block {
