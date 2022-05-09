@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 129px;
+  margin-bottom: 116px;
+  top: 26px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.block-contacts {
+  display: block;
+}
+
+.contacts__discription{
+  color:#9A9A9A;
+  font-size: 11px;
+}
+
+.navigation__list {
+  display:flex;
+  justify-content: space-between;
+}
+
+.navigation__item {
+  min-width: 100px
+}
+
+.navigation__item-link {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+.navigation__item-link:hover {
+  color: #FF3D00;
+}
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+.contacts__phone {
+  text-decoration: none;
+  font-size: 27px;
+  margin-bottom: 13px;
+  padding-bottom: 0;
+}
+.contacts__wrkhours {
+  font-size: 13px;
+  color: #FF3D00;
+  text-decoration: underline;
+  margin-top: 0;
+}

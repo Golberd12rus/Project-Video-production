@@ -1,0 +1,30 @@
+.title-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 232px;
+  text-align: center;
+  overflow-x: hidden;
+  min-height: 333px;
+
+}
+.title-block__title {
+  width: 776px;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 98px;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+}
+
+.title-block__subtitle {
+  font-size: 18px;
+  margin-bottom: 39px;
+}
+
+.title__btn, .about__more {
+  color: #fff;
+  background: #FF3D00;
+}

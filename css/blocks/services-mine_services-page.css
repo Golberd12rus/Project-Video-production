@@ -1,0 +1,50 @@
+.page-content {
+  background: #F4F5F5;
+  color:#303030;
+  padding: 45px 0;
+}
+
+.services-main {
+  margin: 0 auto 67px;
+  min-height: 476px;
+  padding-top: 58px;
+
+}
+
+.service--services {
+  display: flex;
+  min-width: 1185px;
+  margin-bottom: 49px;
+}
+
+.service__img {
+  min-width: 30%;
+  margin-right: 4.5%;
+}
+
+.service__content {
+  padding-top: 12px;
+  flex: 1;
+}
+
+.service__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 29px;
+}
+
+.service__desc {
+  line-height: 27px;
+  margin-bottom: 52px;
+}
+
+.service__more {
+  border: 1px solid #FF5500;
+  margin-top: auto;
+} 
+
+.service__more:hover {
+  color: #fff;
+  background: #FF5500;
+}
