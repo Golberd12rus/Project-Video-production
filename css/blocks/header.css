@@ -2,8 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 129px;
-  margin-bottom: 116px;
+  min-height: 92px;
+  /*margin-bottom: 116px;*/
   top: 26px;
   align-items: center;
 }
@@ -27,7 +27,8 @@
 }
 
 .navigation__item {
-  min-width: 100px
+  min-width: 100px;
+  text-align: center;
 }
 
 .navigation__item-link {
@@ -48,9 +49,62 @@
   margin-bottom: 13px;
   padding-bottom: 0;
 }
-.contacts__wrkhours {
+
+.work-hurse__container {
+  position: relative;
+}
+
+.contacts__workhours {
   font-size: 13px;
   color: #FF3D00;
   text-decoration: underline;
   margin-top: 0;
+}
+
+.contacts__workhours:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  padding: 16px 19px 11px;
+  background: #CDD1D2;
+  border-radius: 9px;
+  color: #1E1F20;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 600;
+  position: absolute;
+  top: 153.5%;
+  left: -9999px;
+  opacity: 0;
+  transition: opacity 1s;
+  text-align: left;
+}
+
+.dropdown__days {
+  font-weight: 700;
+}
+
+.dropdown::after {
+  content: '';
+  position: absolute;
+  border: 20px solid transparent;
+  border-bottom-color: #CDD1D2;
+  border-top-width: 0;
+  top: -11px;
+  right: 30px;
+}
+
+.work-hurse__container:hover .dropdown {
+  left: 19.5%;
+  opacity: 1;
+}
+
+.dropdown::before {
+  content: '';
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: -25px;
+  left: 0;
 }

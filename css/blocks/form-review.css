@@ -1,0 +1,99 @@
+.form__row {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 28px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 20px 30px;
+  color: #1A1B1E;
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input--textarea {
+  height: 232px;
+}
+
+.form__control {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.form__controls-title {
+  width: 38.5%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item {
+  margin-bottom: 10px;
+  margin-right: 13px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #F2D4C9;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 67px;
+}
+
+.form__btn {
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.form__btn:last-child {
+  margin-right: 0;
+}
+
+.btn--color--dark {
+  color: #fff;
+  background: #8E8E8E;
+}
+
+.btn--color--dark:hover {
+  background: #2B2B2B;
+}
+
+.btn--color--orange {
+  color: #fff;
+  background: #FF5500;
+}
+
+.btn--color--orange:hover {
+  background: #FF3D00;
+}

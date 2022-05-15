@@ -38,6 +38,12 @@ img {
   max-width: 100%;
 }
 
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .container {
   margin: 0 auto;
   width: 1150px;
@@ -59,3 +65,4 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 }
+
